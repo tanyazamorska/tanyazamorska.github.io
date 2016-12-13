@@ -1,0 +1,106 @@
+body {
+    height: 665px;
+    position: relative;
+    background: lightgoldenrodyellow;
+    background: linear-gradient(to bottom,lightgoldenrodyellow 40%, #0d2e66 60%, #0e3175);
+    padding: 0;
+    margin: 0;
+}
+.boat {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 170px;
+    left: 20px;
+    animation: mymove 60s;
+    animation-fill-mode: forwards;
+}
+.bottom {
+    height: 50px;
+    width: 270px;
+    background: repeating-linear-gradient(#642a08, #802c11 20%);
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    border: 1px solid black;
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 170px;
+    border-top-left-radius: 20px;
+    border-top: 12px solid black;
+    box-shadow: 5px 50px 100px #091357;
+}
+.triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 170px solid lightgoldenrodyellow;
+    border-left: 100px solid transparent;
+    position: absolute;
+    bottom: 85px;
+    left: 40px;
+}
+.triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 210px solid lightgoldenrodyellow;
+    border-right: 150px solid transparent;
+    position: absolute;
+    bottom: 85px;
+    right: 0;
+}
+.stick {
+    height: 220px;
+    width: 3px;
+    border: 2px solid black;
+    background-color: silver;
+    position: absolute;
+    bottom: 70px;
+    left: 143px;
+}
+.sun {
+    height: 100px;
+    width: 100px;
+    background: radial-gradient(circle, red 1%, yellow, lightgoldenrodyellow);
+    position: absolute;
+    right: 5px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 75px;
+    box-shadow: 5px 10px 100px yellow;
+}
+
+.bird {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 6px solid #484545;
+}
+.bird1 {
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    top: 70px;
+    right: 20px;
+    transform: rotate(-20deg)
+}
+.bird2 {
+    border-left: 40px solid transparent;
+    border-right: 50px solid transparent;
+    top: 65px;
+    right: 120px;
+    transform: rotate(-15deg)
+}
+.bird3 {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    top: 136px;
+    right: 156px;
+    transform: rotate(-15deg)
+}
+
+@keyframes mymove {
+    from {
+        left: 50px; bottom: 0px;
+    }
+    to {
+        left: 600px; bottom: 120px;
+    }
+}
+
