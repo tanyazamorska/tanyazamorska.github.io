@@ -1,5 +1,9 @@
+html {
+    height: 100%;
+}
+
 body {
-    height: 665px;
+    height: 100%;
     position: relative;
     background: lightgoldenrodyellow;
     background: linear-gradient(to bottom,lightgoldenrodyellow 40%, #0d2e66 60%, #0e3175);
@@ -10,7 +14,6 @@ body {
     position: absolute;
     width: 300px;
     height: 300px;
-    bottom: 170px;
     left: 20px;
     animation: mymove 60s;
     animation-fill-mode: forwards;
@@ -97,10 +100,10 @@ body {
 
 @keyframes mymove {
     from {
-        left: 50px; bottom: 0px;
+        left: 50px; bottom: 50px;
     }
     to {
-        left: 600px; bottom: 120px;
+        left: 600px; bottom: 180px;
     }
 }
 
