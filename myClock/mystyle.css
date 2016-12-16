@@ -1,0 +1,65 @@
+
+body {
+  height: 100%;
+  padding: 25px;
+  overflow: hidden;
+  background-color: white;
+}
+
+#clock {
+  position: absolute;
+  width: 100%;
+  margin-left: 150px;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+}
+
+.container1 {
+  width: 1px;
+  height: 135px;
+  position: absolute;
+  margin-left: 355px;
+  margin-top: 236px;
+}
+
+#seconds {
+  width: 2px;
+  height: 80px;
+  position: absolute;
+  margin-top: 10px;
+  background-color: #212127;
+}
+
+.container2 {
+  width: 3px;
+  height: 135px;
+  position: absolute;
+  margin-left: 355px;
+  margin-top: 236px;
+}
+
+#minutes {
+  width: 3px;
+  height: 45px;
+  position: absolute;
+  margin-top: 18px;
+  background-color: #212127;
+}
+.container3 {
+  width: 5px;
+  height: 135px;
+  position: absolute;
+  margin-left: 353px;
+  margin-top: 236px;
+}
+#hours {
+  width: 4px;
+  height: 30px;
+  position: absolute;
+  margin-top: 35px;
+  background-color: #212127;
+  border-radius: 5px;
+}
