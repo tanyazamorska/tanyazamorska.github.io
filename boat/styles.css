@@ -1,5 +1,9 @@
+html{
+    height:100%;
+}
+
 body {
-    height: 665px;
+    height: 100%;
     position: relative;
     background: lightgoldenrodyellow;
     background: linear-gradient(to bottom,lightgoldenrodyellow 40%, #0d2e66 60%, #0e3175);
